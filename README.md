@@ -8,8 +8,9 @@ Exfiltration: Implements Out-of-Band (OOB) data exfiltration using Interactsh an
 
 Manifest V3: Fully compliant with modern browser security standards using Service Workers.
 
-# Security Impact
-This project proves that Authorization logic is just as critical as Authentication. Even "unguessable" IDs and secure JWTs can be replayed if stored or transported insecurely.
+# Security Impact 
+This project highlights that strong authentication alone is insufficient. Unguessable IDs and secure JWTs remain vulnerable to replay and abuse when authorization enforcement or token handling is flawed.
+
 
 
 
