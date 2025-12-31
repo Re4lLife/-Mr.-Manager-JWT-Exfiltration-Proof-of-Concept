@@ -11,8 +11,7 @@ Manifest V3: Fully compliant with modern browser security standards using Servic
 # Security Impact
 This project proves that Authorization logic is just as critical as Authentication. Even "unguessable" IDs and secure JWTs can be replayed if stored or transported insecurely.
 
-# Remediation
-Developers should use HttpOnly and SameSite=Strict cookies to prevent client-side scripts and extensions from accessing session tokens.
+
 
 
 
