@@ -17,7 +17,7 @@ This project highlights that strong authentication alone is insufficient. Ungues
 
 
 
-# Usage & Installation
+# Installation & Usage
 
 ## 1. Preparation
 Clone this repository to your local machine.
